@@ -2,9 +2,11 @@
   "name": "2024-shopping-list",
   "version": "1.0.0",
   "main": "index.js",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
-    "start": "node index.js",
-      }, 
+    "start": "node index.js"
+    }, 
   "devDependencies": { 
     "@types/node": "^17.0.21" 
    } 

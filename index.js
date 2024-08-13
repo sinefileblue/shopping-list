@@ -3,7 +3,7 @@ import cors from "cors";
 import sqlite3 from "sqlite3"; 
  
 const app = express(); 
-const port = process.env.PORT || 8080; 
+const port = process.env.PORT || 8081; 
 
  // cors elimination middleware 
 app.use(cors()); 
