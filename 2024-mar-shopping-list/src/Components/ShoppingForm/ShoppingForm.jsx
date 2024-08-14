@@ -6,6 +6,9 @@ export default function ShoppingForm({ addItem }) {
 
     function handleSubmit(event) {
         event.preventDefault();
+        addItem(item, quantity);
+        setItem('');
+        setQuantity('');
     }
 
     function handleItemChange(event) {
