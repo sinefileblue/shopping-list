@@ -1,15 +1,19 @@
 {
-  "name": "2024-shopping-list",
+  "name": "nodejs-sandbox",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "node index.js"
-    }, 
-  "devDependencies": { 
-    "@types/node": "^17.0.21" 
-   } 
-} 
-    
-     
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
