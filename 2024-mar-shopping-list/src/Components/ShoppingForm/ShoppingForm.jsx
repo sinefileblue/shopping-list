@@ -4,17 +4,16 @@ export default function ShoppingForm({ addItem }) {
     const [item, setItem] = useState('');    
     const [quantity, setQuantity] = useState(0);  
 
-    function handleItemChange(event) { 
-        setItem(event.target.value); 
-    } 
+    function handleSubmit(event) {
+        event.preventDefault();
+    }
 
-    function handleQuantityChange(event) { 
-        setQuantity(event.target.value); 
-    } 
+    function handleItemChange(event) {
+        setItem(event.target.value);
+    }
 
-    function handleSubmit(event) { 
-        event.preventDefault(); 
-        addItem(item, quantity); 
+    function handleQuantityChange(event) {
+        setQuantity(event.target.value);
     }
  
     return ( 
